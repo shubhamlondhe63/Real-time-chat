@@ -1,0 +1,30 @@
+# Ignore build artifacts and temporary files
+node_modules/
+dist/
+.DS_Store
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+
+# Ignore IDE/Editor files
+.idea/
+.vscode/
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore dependencies (specific to certain package managers)
+package-lock.json
+yarn.lock
